@@ -1,1 +1,1 @@
-my laptop is windows so i have succesfully downloaded the ubantu.
+# MY LAPTOP IS WINDOWS I SUCCESFULLY INSTALLED **UBUNTU** WITHOUT FACING ANY ERRORS .

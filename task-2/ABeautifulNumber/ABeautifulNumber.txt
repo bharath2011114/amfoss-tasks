@@ -1,0 +1,12 @@
+t = int(input())
+for _ in range(t):
+    s = input().strip()
+    digits = sorted(s)
+    ans = []
+    for i in range(10):
+        need = 9 - i
+        for j in range(len(digits)):
+            if int(digits[j]) >= need:
+                ans.append(digits.pop(j))
+                break
+    print("".join(ans))

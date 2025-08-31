@@ -1,0 +1,9 @@
+t = int(input())
+for _ in range(t):
+    a, x, y = map(int, input().split())
+    low = min(x, y)
+    high = max(x, y)
+    if a < low or a > high:
+        print("YES")
+    else:
+        print("NO")

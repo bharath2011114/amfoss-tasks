@@ -1,0 +1,17 @@
+import math
+
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    x, y = map(int, input().split())
+    
+    if n == 0:
+        print(0)
+        continue
+    
+    first = min(x, y, n)
+    remain = n - first
+    rate = min(x, y)
+    ans = 1 + math.ceil(remain / rate) if remain > 0 else 1
+    print(ans)
+    

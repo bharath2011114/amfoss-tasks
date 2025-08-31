@@ -1,0 +1,7 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    s = input().strip()
+    ones = s.count('1')
+    total = (n - ones) * (ones + 1) + ones * (ones - 1)
+    print(total)
